@@ -33,3 +33,31 @@ fun main(args: Array<String>) {
 //         "Friday", "Saturday", "Sunday")
 //     return week[java.util.Random().nextInt(week.size)]
 // }
+
+// 3.2.1
+// fun feedTheFish() {
+//     val day = randomDay()
+//     val food = fishFood(day)
+
+//     println ("Today is $day and the fish eat $food")
+// }
+// fun fishFood (day : String) : String {
+//     var food = ""
+//     when (day) {
+//         "Monday" -> food = "flakes"
+//         "Tuesday" -> food = "pellets"
+//         "Wednesday" -> food = "redworms"
+//         "Thursday" -> food = "granules"
+//         "Friday" -> food = "mosquitoes"
+//         "Saturday" -> food = "lettuce"
+//         "Sunday" -> food = "plankton"
+//     }
+//     return food
+// }
+// fun main(args: Array<String>) {
+//     feedTheFish()
+// }
+// fun randomDay(): String {
+//     var week = arrayOf("Monday", "Tuesday", "Wednesday", "Thursday",
+//         "Friday", "Saturday", "Sunday")
+//     return week[java.util.Random().nextInt(week.size)]
