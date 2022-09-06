@@ -224,3 +224,12 @@ fun main(args: Array<String>) {
 // fun isDirty(dirty: Int) = dirty > 30
 
 // fun isSunday(day: String) = day == "Sunday"
+
+
+// 5.1
+
+// val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+
+// fun main() {
+//     println( decorations.filter {it[0] == 'p'})
+// }
