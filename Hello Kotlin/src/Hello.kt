@@ -119,3 +119,17 @@ fun main(args: Array<String>) {
 // fun main(args: Array<String>) {
 //     feedTheFish()
 // }
+
+
+
+// 4.1
+// import java.util.*
+// fun swim(speed : String = "fast") {
+//     println("swimming $speed")
+// }
+
+// fun main(args: Array<String>) {
+//     swim()
+//     swim("slow")
+//     swim(speed = "turtle-like")
+// }
