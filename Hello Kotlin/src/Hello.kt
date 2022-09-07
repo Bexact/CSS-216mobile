@@ -305,3 +305,12 @@ fun main(args: Array<String>) {
 //     val waterFilter: (Int) -> Int = { dirty -> dirty / 2 }
 //     println(waterFilter(dirtyLevel))
 // }
+// 6.3
+// fun main() {
+//     val waterFilter: (Int) -> Int = { dirty -> dirty / 2 }
+//     println(updateDirty(30, waterFilter))
+// }
+
+// fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
+//     return operation(dirty)
+// }
