@@ -292,3 +292,9 @@ fun main(args: Array<String>) {
 //     println("-----")
 //     println("Flat: ${mylist.flatten()}")
 // }
+// 6.1
+// fun main() {
+//     var dirtyLevel = 20
+//     val waterFilter = { dirty : Int -> dirty / 2}
+//     println(waterFilter(dirtyLevel))
+// }
