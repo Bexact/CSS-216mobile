@@ -253,3 +253,19 @@ fun main(args: Array<String>) {
 //     val newList = filtered.toList()
 //     println("new list: $newList")
 // }
+
+// 5.4 
+// fun main() {
+//     val decorations = listOf("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+
+//     val lazyMap = decorations.asSequence().map {
+//         println("access: $it")
+//         it
+//     }
+
+//     println("lazy: $lazyMap")
+//     println("-----")
+//     println("first: ${lazyMap.first()}")
+//     println("-----")
+//     println("all: ${lazyMap.toList()}")
+// }
