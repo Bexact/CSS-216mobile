@@ -298,3 +298,10 @@ fun main(args: Array<String>) {
 //     val waterFilter = { dirty : Int -> dirty / 2}
 //     println(waterFilter(dirtyLevel))
 // }
+
+// 6.2
+// fun main() {
+//     var dirtyLevel = 20
+//     val waterFilter: (Int) -> Int = { dirty -> dirty / 2 }
+//     println(waterFilter(dirtyLevel))
+// }
