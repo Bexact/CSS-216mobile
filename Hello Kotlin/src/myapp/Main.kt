@@ -32,14 +32,29 @@ package example.myapp
 //     aquarium6.printSize()
 // }
 // 5.1
-fun buildAquarium() {
-    val aquarium6 = Aquarium(25,25,40)
-    aquarium6.printSize()
-// 5.2
-    val myTower = TowerTank(40,25)
-    myTower.printSize()
+// fun buildAquarium() {
+//     val aquarium6 = Aquarium(25,25,40)
+//     aquarium6.printSize()
+// // 5.2
+//     val myTower = TowerTank(40,25)
+//     myTower.printSize()
+// }
+
+// fun main(){
+//     buildAquarium()
+// }
+// 6.1
+
+fun makeFish() {
+    val shark = Shark()
+    val pleco = Plecostomus()
+
+    println("Shark: ${shark.color}")
+    println("Plecostomus: ${pleco.color}")
 }
 
-fun main(){
-    buildAquarium()
+fun main () {
+    makeFish()
 }
+
+
