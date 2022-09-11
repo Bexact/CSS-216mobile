@@ -27,6 +27,9 @@ fun buildAquarium() {
     aquarium6.printSize()
 //     3.4
 //     println("Volume: ${aquarium6.width * aquarium6.length * aquarium6.height / 1000} liters")
+// 3.5
+    aquarium6.volume = 70
+    aquarium6.printSize()
 }
 
 fun main(){
