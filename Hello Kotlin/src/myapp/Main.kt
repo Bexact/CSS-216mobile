@@ -35,7 +35,9 @@ package example.myapp
 fun buildAquarium() {
     val aquarium6 = Aquarium(25,25,40)
     aquarium6.printSize()
-
+// 5.2
+    val myTower = TowerTank(40,25)
+    myTower.printSize()
 }
 
 fun main(){
